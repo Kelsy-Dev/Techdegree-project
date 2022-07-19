@@ -84,10 +84,11 @@ header .profile1-image {
   height: 150px;
   border-radius: 50%;
   border: 3px solid white;
-  transition: all .5s;
+  transition: all 0.7s;
 }
 header .profile1-image:hover {
-  transform: scale(1.2) rotate(360deg);
+  transform: scale(1.1) rotate(360deg);
+  border-color: #0b6321;
 }
 
 
@@ -102,6 +103,7 @@ header .profile-image {
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
+  border-color: #0b6321;
 }
 .tag {
   background-color: #efefef;
@@ -127,13 +129,14 @@ header .profile-image:hover {
   height: 350px;
   max-width: 500px;
   text-align: center;
-  background: url('images/contact2.webp');
+  background: url('images/contact3.png');
+  background-size: contain;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
 }
 .myinfo:hover {
-  border-color: #000000;
+  border-color: #fddb01;
 }
 section {
   margin: 30px;
@@ -166,7 +169,7 @@ ul.mysocials {
   background: #edd153;
   color: white;
   padding: 5px 10px;
-  margin: 2px;
+  margin: 20px;
 }
 
 .mysocials li:nth-child(odd) {
