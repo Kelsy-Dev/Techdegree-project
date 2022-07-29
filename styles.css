@@ -123,17 +123,8 @@ header .profile-image:hover {
 
 
 .myinfo {
-  margin: 30px;
-  padding: 20px 40px 40px;
-  width: 500px;
-  height: 350px;
-  max-width: 500px;
-  text-align: center;
   background: url('images/contact3.png');
   background-size: contain;
-  border-bottom: 4px solid #ccc;
-  border-radius: 6px;
-  transition: all .5s;
 }
 .myinfo:hover {
   border-color: #fddb01;
@@ -154,13 +145,10 @@ section:hover {
 
 /*Experience*/
 
-.experience {
+.experience, .myinfo {
   margin: 30px;
-  padding: 20px 40px 40px;
-  width: 500px;
-  height: 400px;
   max-width: 500px;
-  text-align: left;
+  height: 400px;
   background: url('images/experience.png');
   background-size: cover;
   border-bottom: 4px solid #ccc;
@@ -270,6 +258,11 @@ a.social:hover {
       -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
+  }
+
+  .experience, .myinfo {
+    width: 500px;
+    padding: 20px 40px 40px;
   }
 
   header {
