@@ -145,11 +145,14 @@ section:hover {
 
 /*Experience*/
 
+.experience {
+  background: url('images/experience.png');
+}
+
 .experience, .myinfo {
   margin: 30px;
   max-width: 500px;
   height: 400px;
-  background: url('images/experience.png');
   background-size: cover;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
